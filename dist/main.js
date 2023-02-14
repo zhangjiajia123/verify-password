@@ -52,7 +52,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* binding */ verifyPassword)
 /* harmony export */ });
 function verifyPassword(password) {
-  var regex = '/(?!^[0-9]{16,12}$)(?!^[A-Z]{6,12}$)(?!^[a-z]{6,12}$)^[0-9A-Za-z]{6,12}$/';
+  var regex = /(?!^[0-9]{6,12}$)(?!^[A-Z]{6,12}$)(?!^[a-z]{6,12}$)^[0-9A-Za-z]{6,12}$/;
   return regex.test(password);
 }
 /******/ 	return __webpack_exports__;
