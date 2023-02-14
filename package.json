@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Verify a 6 to 12 digit password, which must consist of numbers, upper and lower case letters, and must include at least 2 character",
   "main": "index.js",
+  "bin": "index.js",
+  "homepage": "https://github.com/zhangjiagithub/verify-password",
+  "bugs": "https://github.com/zhangjiagithub/verify-password/issues",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xxx/shang-utils"
+    "url": "https://github.com/zhangjiagithub/verify-password"
   },
   "keywords": [
     "verify",
