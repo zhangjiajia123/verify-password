@@ -2,8 +2,8 @@
   "name": "verify-password",
   "version": "1.0.2",
   "description": "Verify a 6 to 12 digit password, which must consist of numbers, upper and lower case letters, and must include at least 2 character",
-  "main": "./index.js",
-  "bin": "./index.js",
+  "main": "./src/index.js",
+  "bin": "./src/index.js",
   "homepage": "https://github.com/zhangjiagithub/verify-password",
   "bugs": "https://github.com/zhangjiagithub/verify-password/issues",
   "scripts": {
