@@ -49,12 +49,12 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   "default": () => (/* binding */ verifyPassword)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (verifyPassword = function verifyPassword(password) {
-  var regex = "/(?!^[0-9]{16,12}$)(?!^[A-Z]{6,12}$)(?!^[a-z]{6,12}$)^[0-9A-Za-z]{6,12}$/";
+function verifyPassword(password) {
+  var regex = '/(?!^[0-9]{16,12}$)(?!^[A-Z]{6,12}$)(?!^[a-z]{6,12}$)^[0-9A-Za-z]{6,12}$/';
   return regex.test(password);
-});
+}
 /******/ 	return __webpack_exports__;
 /******/ })()
 ;
